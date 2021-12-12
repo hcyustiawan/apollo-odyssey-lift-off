@@ -3,7 +3,7 @@ const { gql } = require('apollo-server')
 
 const typeDefs = gql`
     type Query {
-        tracksForHome: [Track!]!
+        tracksFromHome: [Track!]!
     }
 
     "A track is a group of Modules that teaches about a specific topic"
